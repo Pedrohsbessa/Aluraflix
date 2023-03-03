@@ -1,0 +1,53 @@
+:root {
+    --cor-texto-principal: #f1faee;
+    --cor-texto-secundária: #edf2f4;
+    --cor-de-fundo: #2b2d42;
+    --cor-texto-destacado: #e63946;
+    --cor--elemento-botão: #3a86ff;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-texto-principal);
+}
+
+.principal {
+    background-image: url(/assets/images/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.primeira__secao {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+button {
+    border-radius: 5px;
+    padding: 1.85em;
+    border: solid .5px var(--cor-texto-secundária);
+}
+
+.botao__alura__combo {
+    background-color: var(--cor--elemento-botão);
+}
+
+.botao__alura__plus {
+    background-color: transparent;
+}
+
+.botao__txt {
+
+    text-decoration: none;
+    color: var(--cor-texto-principal);
+    font-weight: bold;
+}
